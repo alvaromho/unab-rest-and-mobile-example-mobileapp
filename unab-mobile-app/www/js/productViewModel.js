@@ -42,7 +42,8 @@ var ProductViewModel = function(){
   };
 
   self.getAll = function(){
-    var url = 'http://unabrestmobile-mreyesexamples.rhcloud.com/api/products/';
+    //var url = 'http://unabrestmobile-mreyesexamples.rhcloud.com/api/products/';
+    var url = 'https://padrino.herokuapp.com/';
 
     $.ajax({
 
